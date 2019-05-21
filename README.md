@@ -3,6 +3,9 @@ Python Script to convert a MP4 file into onDemand MPEG-DASH
 ## Dependencies 
 * ffmpeg - https://www.ffmpeg.org/ 
 * MP4Box - https://gpac.wp.mines-telecom.fr/mp4box/
+## Setup
+To upload the converted files to S3
+`pip install -r requirements.txt`
 
 ## Usaage 
 `$ python transcode.py $FILENAME`
